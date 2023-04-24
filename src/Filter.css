@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600");
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --celeste: rgba(208, 208, 208, 0.251);
+    --celeste-2: rgba(208, 208, 208, 0.749);
+    --d9d9d9: rgba(217, 217, 217, 1);
+    --concrete-2: rgba(242, 241, 248, 1);
+    --concrete: rgba(243, 241, 249, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --gradient: linear-gradient(180deg, rgba(246, 158, 193, 0.69) 0%, rgba(198, 158, 250, 0.69) 100%);
+
+    --font-size-m: 20px;
+    --font-size-m2: 24px;
+    --font-size-12: 28px;
+    --font-size-x12: 36px;
+
+    --font-family-inter: "Inter";
+}
+
+.inter-semi-bold-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-normal-concrete-24px {
+    color: var(--concrete);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-medium-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-semi-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-28px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.select-components {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100vw;
+}
+
+.build-your-pc {
+
+}
+
+.linie {
+    max-width: 80%;
+}
+
+.sub-linie {
+    max-width: 80%;
+    color: var(--black);
+    border-radius: 6px;
+    background-color: var(--concrete);
+}
+
+.configuratia-ta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.your-pc {
+    display: flex;
+    align-items: center;
+}
+

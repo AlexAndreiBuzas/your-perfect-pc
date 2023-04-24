@@ -1,38 +1,281 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600");
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --celeste: rgba(208, 208, 208, 0.251);
+    --celeste-2: rgba(208, 208, 208, 0.749);
+    --d9d9d9: rgba(217, 217, 217, 1);
+    --concrete-2: rgba(242, 241, 248, 1);
+    --concrete: rgba(243, 241, 249, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-m: 20px;
+    --font-size-m2: 24px;
+    --font-size-12: 28px;
+    --font-size-x12: 36px;
+
+    --font-family-inter: "Inter";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Classes */
+
+.inter-semi-bold-white-36px {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-normal-concrete-24px {
+    color: var(--concrete);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-medium-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-semi-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-white-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-28px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x12);
+    font-weight: 400;
+    font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Page Style*/
+
+.screen a {
+    display: contents;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display {
+    align-items: center;
+    background-color: var(--concrete);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.main-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 195px;
+    margin-left: 0;
+    min-height: 1546px;
+    width: 1196px;
+    z-index: 3;
+}
+
+.overlap-group8 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: 2px;
+    position: relative;
+    width: 100vw;
+}
+
+.colorful-background {
+    height: auto;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    background-color: var(--concrete);
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gaming-pc {
+    height: 399px;
+    object-fit: cover;
+    position: absolute;
+    top: 285px;
+    right: 25%;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.intro {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 0 #21193926;
+    top: 200px;
+    max-width: 50%;
+    left: 10%;
+}
+
+.description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    width: 80vw;
+    gap: 150px;
+}
+
+.x1-st-p {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 48px;
+    text-align: center;
+    text-shadow: 0 0 0 #2119391a;
+}
+
+.x2-nd-p {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 72px;
+    text-align: center;
+    text-shadow: 0 0 0 #2119391a;
+}
+
+.x3-rd-p {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 96px;
+    text-align: center;
+    text-shadow: 0 0 0 #2119391a;
+}
+
+.build-btn {
+    -webkit-backdrop-filter: blur(5px) brightness(100%);
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    max-height: 65px;
+    justify-content: center;
+    min-width: 300px;
+    padding: 16px 18px;
+    position: absolute;
+    bottom: 25%;
+
+    background: rgba(208, 208, 208, 0.75);
+    background-blend-mode: multiply;
+    border: 1px solid rgba(208, 208, 208, 0.25);
+    box-shadow: 3px 4px 9px -2px rgba(0, 0, 0, 0.2), inset 0.5px 1px 5px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(2.5px);
+    border-radius: 15px;
+
+    filter: drop-shadow(68px 29px 30px rgba(33, 25, 57, 0.01))
+    drop-shadow(38px 16px 25px rgba(33, 25, 57, 0.03))
+    drop-shadow(17px 7px 18px rgba(33, 25, 57, 0.04))
+    drop-shadow(4px 2px 10px rgba(33, 25, 57, 0.05))
+    drop-shadow(0px 0px 0px rgba(33, 25, 57, 0.05));
+}
+
+.build-now {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 29px;
+    min-width: 115px;
+}
+
+.arrow-2 {
+    align-self: center;
+    height: 23px;
+    margin-top: 4px;
+    width: 32px;
+}
+
+.nav-bar {
+    -webkit-backdrop-filter: blur(8px) brightness(100%);
+    align-items: center;
+    backdrop-filter: blur(8px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 240, 245, 0.34) 0.01%, rgba(193, 188, 214, 0.34) 100%);
+    box-shadow: 0 4px 4px #00000040;
+    display: flex;
+    max-height: 100px;
+    justify-content: center;
+    left: 0;
+    width: 100%;
+    padding: 27px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.your-perfect-pc {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgba(246, 158, 193, 0.69) 0%, rgba(198, 158, 250, 0.69) 100%);
+    background-clip: text;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 44px;
+    text-shadow: 0 0 0 #2119394c;
 }
