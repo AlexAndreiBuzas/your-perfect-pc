@@ -159,7 +159,7 @@
     object-fit: cover;
     position: absolute;
     top: 285px;
-    right: 25%;
+    right: 20%;
 
     -webkit-user-drag: none;
     user-select: none;
@@ -174,7 +174,7 @@
     position: absolute;
     text-align: center;
     text-shadow: 0 0 0 #21193926;
-    top: 200px;
+    top: 170px;
     max-width: 50%;
     left: 10%;
 }
@@ -222,7 +222,7 @@
     min-width: 300px;
     padding: 16px 18px;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
 
     background: rgba(208, 208, 208, 0.75);
     background-blend-mode: multiply;
