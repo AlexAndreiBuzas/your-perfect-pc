@@ -484,6 +484,130 @@ const components = {
             socket: 'LGA 1200',
             formFactor: 'ATX',
         },
+        {
+            id: 1,
+            name: 'ASUS ROG STRIX Z790-I GAMING WIFI',
+            socket: 'LGA 1700',
+            formFactor: 'mITX',
+        },
+        {
+            id: 1,
+            name: 'ASUS TUF GAMING Z790-PLUS WIFI D4',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'ASUS ROG STRIX B760-F GAMING WIFI',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'ASUS ROG STRIX B660-F GAMING WIFI',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'ASUS TUF GAMING Z790-PLUS D4',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'ASUS TUF GAMING Z690-PLUS D4',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'GIGABYTE Z790 UD',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+        {
+            id: 1,
+            name: 'GIGABYTE B760 GAMING X AX',
+            socket: 'LGA 1700',
+            formFactor: 'ATX',
+        },
+
+
+
+        {
+            id: 2,
+            name: 'GIGABYTE B650M AORUS ELITE AX',
+            socket: 'AM5',
+            formFactor: 'mATX',
+        },
+        {
+            id: 2,
+            name: 'GIGABYTE B650 GAMING X AX',
+            socket: 'AM5',
+            formFactor: 'ATX'
+        },
+        {
+            id: 2,
+            name: 'MSI PRO B650-P WIFI',
+            socket: 'AM5',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'ASRock B650 PG Lightning',
+            socket: 'AM5',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'GIGABYTE AORUS X570 MASTER',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'GIGABYTE B550 AORUS ELITE AX V2',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'GIGABYTE B650M DS3H',
+            socket: 'AM5',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'MSI MPG B550 GAMING EDGE WIFI',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'MSI MAG B550 TOMAHAWK',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'ASRock B550 PG RIPTIDE',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'GIGABYTE B550 AORUS ELITE V2',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+        {
+            id: 2,
+            name: 'ASUS PRIME B550-PLUS',
+            socket: 'AM4',
+            formFactor: 'ATX',
+        },
+
 
         {
             id: 2,
