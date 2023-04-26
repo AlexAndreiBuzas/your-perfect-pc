@@ -95,18 +95,18 @@
 
 }
 
-.linie {
+.line {
     max-width: 80%;
 }
 
-.sub-linie {
+.sub-line {
     max-width: 80%;
     color: var(--black);
     border-radius: 6px;
     background-color: var(--concrete);
 }
 
-.configuratia-ta {
+.your-build {
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import components from './data.js';
-import './Filter.css';
+import './assets/Filter.css';
 
 function FilterComponent() {
     const [state, setState] = useState({
@@ -78,14 +78,14 @@ function FilterComponent() {
         <div className="complet-build">
             <div className="select-components">
                 <h1 className="build-your-pc inter-normal-black-36px">Build your PC</h1>
-                <div className="linie">
+                <div className="line">
                     <label className="inter-normal-black-20px">CPU:</label>
                     <select
-                        className="sub-linie inter-normal-black-20px"
+                        className="sub-line inter-normal-black-20px"
                         value={state.selectedComponents.cpu}
                         onChange={(e) => handleChange(e, "cpu")}
                     >
-                        <option value="">Select a CPU</option>
+                        <option value="">Select CPU</option>
                         {components.cpu.map((c) => (
                             <option key={c.id} value={c.name}>
                                 {c.name}
@@ -93,10 +93,10 @@ function FilterComponent() {
                         ))}
                     </select>
                 </div>
-                <div className="linie">
+                <div className="line">
                     <label className="inter-normal-black-20px">GPU:</label>
                     <select
-                        className="sub-linie inter-normal-black-20px"
+                        className="sub-line inter-normal-black-20px"
                         onChange={(e) => handleChange(e, 'gpu')}
                         value={state.selectedComponents.gpu}
                     >
@@ -104,10 +104,10 @@ function FilterComponent() {
                         {gpuOptions}
                     </select>
                 </div>
-                <div className="linie">
+                <div className="line">
                     <label className="inter-normal-black-20px">Motherboard:</label>
                     <select
-                        className="sub-linie inter-normal-black-20px"
+                        className="sub-line inter-normal-black-20px"
                         value={state.selectedComponents.motherboard}
                         onChange={(e) => handleChange(e, 'motherboard')}
                     >
@@ -119,10 +119,10 @@ function FilterComponent() {
                         ))}
                     </select>
                 </div>
-                <div className="linie">
+                <div className="line">
                         <label className="inter-normal-black-20px">Memory:</label>
                         <select
-                            className="sub-linie inter-normal-black-20px"
+                            className="sub-line inter-normal-black-20px"
                             onChange={(e) => handleChange(e, 'memory')}
                             value={state.selectedComponents.memory}
                         >
@@ -130,10 +130,10 @@ function FilterComponent() {
                             {memoryOptions}
                         </select>
                     </div>
-                    <div className="linie">
+                    <div className="line">
                         <label className="inter-normal-black-20px">Storage:</label>
                         <select
-                            className="sub-linie inter-normal-black-20px"
+                            className="sub-line inter-normal-black-20px"
                             onChange={(e) => handleChange(e, 'storage')}
                             value={state.selectedComponents.storage}
                         >
@@ -141,10 +141,10 @@ function FilterComponent() {
                             {storageOptions}
                         </select>
                     </div>
-                    <div className="linie">
+                    <div className="line">
                         <label className="inter-normal-black-20px">PSU:</label>
                         <select
-                            className="sub-linie inter-normal-black-20px"
+                            className="sub-line inter-normal-black-20px"
                             onChange={(e) => handleChange(e, 'psu')}
                             value={state.selectedComponents.psu}
                         >
@@ -152,10 +152,10 @@ function FilterComponent() {
                             {psuOptions}
                         </select>
                     </div>
-                    <div className="linie">
+                    <div className="line">
                         <label className="inter-normal-black-20px">Case:</label>
                         <select
-                            className="sub-linie inter-normal-black-20px"
+                            className="sub-line inter-normal-black-20px"
                             onChange={(e) => handleChange(e, 'case')}
                             value={state.selectedComponents.case}
                         >
@@ -165,7 +165,7 @@ function FilterComponent() {
                     </div>
                 </div>
 
-                <div className="configuratia-ta">
+                <div className="your-build">
                     <h1 className="your-pc inter-normal-black-36px">Your PC:</h1>
                     <h2 className="inter-normal-black-20px">CPU: {state.selectedComponents.cpu}</h2>
                     <h2 className="inter-normal-black-20px">GPU: {state.selectedComponents.gpu}</h2>

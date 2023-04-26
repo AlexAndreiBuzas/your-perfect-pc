@@ -1,8 +1,8 @@
-import './App.css';
-import './Filter.css';
-import colorfulBackground from "./Colorful Background.svg";
-import gamingPC from "./gaming-pc.png";
-import arrow1 from "./Arrow.png";
+import './assets/App.css';
+import './assets/Filter.css';
+import colorfulBackground from "./assets/Colorful Background.svg";
+import gamingPC from "./assets/gaming-pc.png";
+import arrow1 from "./assets/Arrow.png";
 import FilterComponent from "./Filter";
 
 function App() {
